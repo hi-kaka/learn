@@ -1,0 +1,868 @@
+[W 20181213 14:51:42 base:170] Not Found: /
+[W 20181213 14:51:43 base:170] Not Found: /favicon.ico
+[W 20181213 14:52:37 base:170] Not Found: /
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 22222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 22
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 22222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 22
+[I 20181214 18:39:16 nmap_all_server:142] IP:192.168.147.128 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 22222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 22
+[I 20181214 18:39:16 nmap_all_server:142] IP:192.168.147.129 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 22222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 22
+[I 20181214 18:39:16 nmap_all_server:142] IP:192.168.147.130 Port:22 Server:ssh-2.0-openssh_7.4
+
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 22222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 22
+[I 20181214 18:39:16 nmap_all_server:142] IP:192.168.147.131 Port:22 Server:ssh-2.0-openssh_7.4
+
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 22222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 2222
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 22
+[I 20181214 18:39:16 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 222
+[I 20181214 18:39:20 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 2222
+[I 20181214 18:39:24 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 22222
+[I 20181214 18:39:28 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 2222
+[I 20181214 18:39:32 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 22
+[I 20181214 18:39:36 nmap_all_server:216] Try ssh key login : 192.168.147.130,22
+[I 20181214 18:39:36 nmap_all_server:219] Try ssh idrsa key : 192.168.147.130,22,/root/.ssh/id_rsa
+[I 20181214 18:39:37 nmap_all_server:216] Try ssh key login : 192.168.147.131,22
+[I 20181214 18:39:37 nmap_all_server:219] Try ssh idrsa key : 192.168.147.131,22,/root/.ssh/id_rsa
+[E 20181214 18:39:37 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181214 18:39:37 nmap_all_server:234] try iddsa login...192.168.147.131,22,/opt/key/senncond_dsa
+[E 20181214 18:39:37 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.131', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181214 18:39:37 nmap_all_server:251] try Non-root idrsa login:192.168.147.131,22
+[E 20181214 18:39:37 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.131', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[I 20181214 18:39:37 nmap_all_server:216] Try ssh key login : 192.168.147.129,22
+[I 20181214 18:39:37 nmap_all_server:219] Try ssh idrsa key : 192.168.147.129,22,/root/.ssh/id_rsa
+[E 20181214 18:39:37 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.129', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181214 18:39:37 nmap_all_server:234] try iddsa login...192.168.147.129,22,/opt/key/senncond_dsa
+[E 20181214 18:39:37 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.129', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181214 18:39:37 nmap_all_server:251] try Non-root idrsa login:192.168.147.129,22
+[E 20181214 18:39:37 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.129', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[I 20181214 18:39:37 nmap_all_server:216] Try ssh key login : 192.168.147.128,22
+[I 20181214 18:39:37 nmap_all_server:219] Try ssh idrsa key : 192.168.147.128,22,/root/.ssh/id_rsa
+[E 20181214 18:39:37 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.128', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181214 18:39:37 nmap_all_server:234] try iddsa login...192.168.147.128,22,/opt/key/senncond_dsa
+[E 20181214 18:39:37 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.128', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181214 18:39:37 nmap_all_server:251] try Non-root idrsa login:192.168.147.128,22
+[E 20181214 18:39:37 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.128', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[E 20181214 18:39:39 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181214 18:39:41 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '1234560.')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181214 18:39:44 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', 'passwd3')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181214 18:39:47 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.129', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181214 18:39:48 nmap_all_server:189] ssh login and exec command:{'info': ('192.168.147.129', 22, 'root', '1234560.'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.6 (Final)\nKernel \\r on an \\m\n\n', 'cat /sys/class/net/[e]*/address': '00:0c:29:24:13:6d\n', 'hostname': 'whb1\n', 'dmidecode -s system-serial-number': 'VMware-56 4d e8 eb 6e a4 bb aa-ad af a4 c6 cd 24 13 6d\n', 'cat /etc/redhat-release': 'CentOS release 6.6 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20181214 18:39:50 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.128', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181214 18:39:50 nmap_all_server:189] ssh login and exec command:{'info': ('192.168.147.128', 22, 'root', '1234560.'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.6 (Final)\nKernel \\r on an \\m\n\n', 'cat /sys/class/net/[e]*/address': '00:0c:29:0a:f2:65\n', 'hostname': 'localhost.localdomain\n', 'dmidecode -s system-serial-number': 'VMware-56 4d ac 59 73 c5 2b 01-59 6c 85 f2 f4 0a f2 65\n', 'cat /etc/redhat-release': 'CentOS release 6.6 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 22222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 22
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 22222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 22
+[I 20181217 15:52:15 nmap_all_server:142] IP:192.168.147.128 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 22222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 22
+[I 20181217 15:52:15 nmap_all_server:142] IP:192.168.147.129 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 22222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 22
+[I 20181217 15:52:15 nmap_all_server:142] IP:192.168.147.130 Port:22 Server:ssh-2.0-openssh_7.4
+
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 22222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 22
+[I 20181217 15:52:15 nmap_all_server:142] IP:192.168.147.131 Port:22 Server:ssh-2.0-openssh_7.4
+
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 22222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 2222
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 22
+[I 20181217 15:52:15 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 222
+[I 20181217 15:52:19 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 2222
+[I 20181217 15:52:23 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 22222
+[I 20181217 15:52:27 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 2222
+[I 20181217 15:52:31 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 22
+[I 20181217 15:52:35 nmap_all_server:216] Try ssh key login : 192.168.147.130,22
+[I 20181217 15:52:35 nmap_all_server:219] Try ssh idrsa key : 192.168.147.130,22,/root/.ssh/id_rsa
+[I 20181217 15:52:36 nmap_all_server:216] Try ssh key login : 192.168.147.131,22
+[I 20181217 15:52:36 nmap_all_server:219] Try ssh idrsa key : 192.168.147.131,22,/root/.ssh/id_rsa
+[E 20181217 15:52:36 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 15:52:36 nmap_all_server:234] try iddsa login...192.168.147.131,22,/opt/key/senncond_dsa
+[E 20181217 15:52:36 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.131', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 15:52:36 nmap_all_server:251] try Non-root idrsa login:192.168.147.131,22
+[E 20181217 15:52:36 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.131', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[I 20181217 15:52:36 nmap_all_server:216] Try ssh key login : 192.168.147.129,22
+[I 20181217 15:52:36 nmap_all_server:219] Try ssh idrsa key : 192.168.147.129,22,/root/.ssh/id_rsa
+[E 20181217 15:52:38 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.129', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 15:52:38 nmap_all_server:234] try iddsa login...192.168.147.129,22,/opt/key/senncond_dsa
+[E 20181217 15:52:38 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.129', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 15:52:38 nmap_all_server:251] try Non-root idrsa login:192.168.147.129,22
+[E 20181217 15:52:38 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.129', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[I 20181217 15:52:38 nmap_all_server:216] Try ssh key login : 192.168.147.128,22
+[I 20181217 15:52:38 nmap_all_server:219] Try ssh idrsa key : 192.168.147.128,22,/root/.ssh/id_rsa
+[E 20181217 15:52:38 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.128', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 15:52:39 nmap_all_server:234] try iddsa login...192.168.147.128,22,/opt/key/senncond_dsa
+[E 20181217 15:52:39 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.128', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 15:52:39 nmap_all_server:251] try Non-root idrsa login:192.168.147.128,22
+[E 20181217 15:52:39 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.128', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[E 20181217 15:52:41 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 15:52:43 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '1234560.')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 15:52:45 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', 'passwd3')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 15:52:47 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.129', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 15:52:47 nmap_all_server:189] ssh login and exec command:{'info': ('192.168.147.129', 22, 'root', '1234560.'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.6 (Final)\nKernel \\r on an \\m\n\n', 'cat /sys/class/net/[e]*/address': '00:0c:29:24:13:6d\n', 'hostname': 'whb1\n', 'dmidecode -s system-serial-number': 'VMware-56 4d e8 eb 6e a4 bb aa-ad af a4 c6 cd 24 13 6d\n', 'cat /etc/redhat-release': 'CentOS release 6.6 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20181217 15:52:50 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.128', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 15:52:50 nmap_all_server:189] ssh login and exec command:{'info': ('192.168.147.128', 22, 'root', '1234560.'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.6 (Final)\nKernel \\r on an \\m\n\n', 'cat /sys/class/net/[e]*/address': '00:0c:29:0a:f2:65\n', 'hostname': 'localhost.localdomain\n', 'dmidecode -s system-serial-number': 'VMware-56 4d ac 59 73 c5 2b 01-59 6c 85 f2 f4 0a f2 65\n', 'cat /etc/redhat-release': 'CentOS release 6.6 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 22222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 22
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 22222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 22
+[I 20181217 16:25:49 nmap_all_server:142] IP:192.168.147.128 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 22222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 22
+[I 20181217 16:25:49 nmap_all_server:142] IP:192.168.147.129 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 22222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 22
+[I 20181217 16:25:49 nmap_all_server:142] IP:192.168.147.130 Port:22 Server:ssh-2.0-openssh_7.4
+
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 22222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 22
+[I 20181217 16:25:49 nmap_all_server:142] IP:192.168.147.131 Port:22 Server:ssh-2.0-openssh_7.4
+
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 22222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 2222
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 22
+[I 20181217 16:25:49 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 222
+[I 20181217 16:25:53 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 2222
+[I 20181217 16:25:57 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 22222
+[I 20181217 16:26:01 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 2222
+[I 20181217 16:26:05 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 22
+[I 20181217 16:26:09 nmap_all_server:216] Try ssh key login : 192.168.147.130,22
+[I 20181217 16:26:09 nmap_all_server:219] Try ssh idrsa key : 192.168.147.130,22,/root/.ssh/id_rsa
+[I 20181217 16:26:09 nmap_all_server:216] Try ssh key login : 192.168.147.131,22
+[I 20181217 16:26:09 nmap_all_server:219] Try ssh idrsa key : 192.168.147.131,22,/root/.ssh/id_rsa
+[E 20181217 16:26:09 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 16:26:09 nmap_all_server:234] try iddsa login...192.168.147.131,22,/opt/key/senncond_dsa
+[E 20181217 16:26:09 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.131', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 16:26:09 nmap_all_server:251] try Non-root idrsa login:192.168.147.131,22
+[E 20181217 16:26:09 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.131', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[I 20181217 16:26:09 nmap_all_server:216] Try ssh key login : 192.168.147.129,22
+[I 20181217 16:26:09 nmap_all_server:219] Try ssh idrsa key : 192.168.147.129,22,/root/.ssh/id_rsa
+[E 20181217 16:26:10 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.129', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 16:26:10 nmap_all_server:234] try iddsa login...192.168.147.129,22,/opt/key/senncond_dsa
+[E 20181217 16:26:10 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.129', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 16:26:10 nmap_all_server:251] try Non-root idrsa login:192.168.147.129,22
+[E 20181217 16:26:10 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.129', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[I 20181217 16:26:10 nmap_all_server:216] Try ssh key login : 192.168.147.128,22
+[I 20181217 16:26:10 nmap_all_server:219] Try ssh idrsa key : 192.168.147.128,22,/root/.ssh/id_rsa
+[E 20181217 16:26:10 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.128', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 16:26:10 nmap_all_server:234] try iddsa login...192.168.147.128,22,/opt/key/senncond_dsa
+[E 20181217 16:26:10 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.128', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 16:26:10 nmap_all_server:251] try Non-root idrsa login:192.168.147.128,22
+[E 20181217 16:26:10 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.128', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[E 20181217 16:26:12 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 16:26:14 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '1234560.')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 16:26:16 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', 'passwd3')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 16:26:18 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.129', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 16:26:19 nmap_all_server:189] ssh login and exec command:{'info': ('192.168.147.129', 22, 'root', '1234560.'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.6 (Final)\nKernel \\r on an \\m\n\n', 'cat /sys/class/net/[e]*/address': '00:0c:29:24:13:6d\n', 'hostname': 'whb1\n', 'dmidecode -s system-serial-number': 'VMware-56 4d e8 eb 6e a4 bb aa-ad af a4 c6 cd 24 13 6d\n', 'cat /etc/redhat-release': 'CentOS release 6.6 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20181217 16:26:21 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.128', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 16:26:22 nmap_all_server:189] ssh login and exec command:{'info': ('192.168.147.128', 22, 'root', '1234560.'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.6 (Final)\nKernel \\r on an \\m\n\n', 'cat /sys/class/net/[e]*/address': '00:0c:29:0a:f2:65\n', 'hostname': 'localhost.localdomain\n', 'dmidecode -s system-serial-number': 'VMware-56 4d ac 59 73 c5 2b 01-59 6c 85 f2 f4 0a f2 65\n', 'cat /etc/redhat-release': 'CentOS release 6.6 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 22222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.1 ..... Port 22
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 22222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.128 ..... Port 22
+[I 20181217 17:03:38 nmap_all_server:142] IP:192.168.147.128 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 22222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.129 ..... Port 22
+[I 20181217 17:03:38 nmap_all_server:142] IP:192.168.147.129 Port:22 Server:ssh-2.0-openssh_5.3
+
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 22222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.130 ..... Port 22
+[I 20181217 17:03:38 nmap_all_server:142] IP:192.168.147.130 Port:22 Server:ssh-2.0-openssh_7.4
+
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 22222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.131 ..... Port 22
+[I 20181217 17:03:38 nmap_all_server:142] IP:192.168.147.131 Port:22 Server:ssh-2.0-openssh_7.4
+
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 22222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 2222
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.2 ..... Port 22
+[I 20181217 17:03:38 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 222
+[I 20181217 17:03:42 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 2222
+[I 20181217 17:03:46 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 22222
+[I 20181217 17:03:50 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 2222
+[I 20181217 17:03:54 nmap_all_server:133] Scan ip 192.168.147.254 ..... Port 22
+[I 20181217 17:03:58 nmap_all_server:216] Try ssh key login : 192.168.147.130,22
+[I 20181217 17:03:58 nmap_all_server:219] Try ssh idrsa key : 192.168.147.130,22,/root/.ssh/id_rsa
+[I 20181217 17:03:58 nmap_all_server:216] Try ssh key login : 192.168.147.131,22
+[I 20181217 17:03:58 nmap_all_server:219] Try ssh idrsa key : 192.168.147.131,22,/root/.ssh/id_rsa
+[E 20181217 17:03:58 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 17:03:59 nmap_all_server:234] try iddsa login...192.168.147.131,22,/opt/key/senncond_dsa
+[E 20181217 17:03:59 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.131', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 17:03:59 nmap_all_server:251] try Non-root idrsa login:192.168.147.131,22
+[E 20181217 17:03:59 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.131', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[I 20181217 17:03:59 nmap_all_server:216] Try ssh key login : 192.168.147.129,22
+[I 20181217 17:03:59 nmap_all_server:219] Try ssh idrsa key : 192.168.147.129,22,/root/.ssh/id_rsa
+[E 20181217 17:04:05 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.129', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 17:04:05 nmap_all_server:234] try iddsa login...192.168.147.129,22,/opt/key/senncond_dsa
+[E 20181217 17:04:05 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.129', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 17:04:05 nmap_all_server:251] try Non-root idrsa login:192.168.147.129,22
+[E 20181217 17:04:05 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.129', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[I 20181217 17:04:05 nmap_all_server:216] Try ssh key login : 192.168.147.128,22
+[I 20181217 17:04:05 nmap_all_server:219] Try ssh idrsa key : 192.168.147.128,22,/root/.ssh/id_rsa
+[E 20181217 17:04:05 J_do:72] Use rsa key ssh login exception:Authentication failed.,('192.168.147.128', 22, 'root', '/root/.ssh/id_rsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 63, in rsa_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],pkey=key,timeout=2)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 17:04:05 nmap_all_server:234] try iddsa login...192.168.147.128,22,/opt/key/senncond_dsa
+[E 20181217 17:04:05 J_do:98] Use dsa key ssh login exception:[Errno 2] No such file or directory: '/opt/key/senncond_dsa',('192.168.147.128', '22', 'root', '/opt/key/senncond_dsa')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 89, in dsa_do
+    key = paramiko.DSSKey.from_private_key_file(login_info[3])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 57, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/dsskey.py", line 222, in _from_private_key_file
+    data = self._read_private_key_file('DSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/senncond_dsa'
+[I 20181217 17:04:05 nmap_all_server:251] try Non-root idrsa login:192.168.147.128,22
+[E 20181217 17:04:05 J_do:117] Use rsa key and Non-root user ssh login exception:[Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass',('192.168.147.128', '22', 'imoocc', '/opt/key/rsa_noroot_needpass', '0koooAdmin')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 108, in imoocc_rsa_do
+    key = paramiko.RSAKey.from_private_key_file(login_info[3], login_info[4])
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 206, in from_private_key_file
+    key = cls(filename=filename, password=password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 48, in __init__
+    self._from_private_key_file(filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/rsakey.py", line 169, in _from_private_key_file
+    data = self._read_private_key_file('RSA', filename, password)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/pkey.py", line 278, in _read_private_key_file
+    with open(filename, 'r') as f:
+IOError: [Errno 2] No such file or directory: '/opt/key/rsa_noroot_needpass'
+[E 20181217 17:04:07 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 17:04:08 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', '1234560.')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 17:04:10 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.131', 22, 'root', 'passwd3')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[E 20181217 17:04:15 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.129', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 17:04:16 nmap_all_server:189] ssh login and exec command:{'info': ('192.168.147.129', 22, 'root', '1234560.'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.6 (Final)\nKernel \\r on an \\m\n\n', 'cat /sys/class/net/[e]*/address': '00:0c:29:24:13:6d\n', 'hostname': 'whb1\n', 'dmidecode -s system-serial-number': 'VMware-56 4d e8 eb 6e a4 bb aa-ad af a4 c6 cd 24 13 6d\n', 'cat /etc/redhat-release': 'CentOS release 6.6 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20181217 17:04:19 J_do:45] Use passwd ssh login exception:Authentication failed.,('192.168.147.128', 22, 'root', '123456')
+Traceback (most recent call last):
+  File "/whb/myapp/imoocc/scanhosts/lib/J_do.py", line 37, in pass_do
+    ssh.connect(login_info[0],login_info[1],login_info[2],login_info[3],timeout=3)
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 424, in connect
+    passphrase,
+  File "/usr/local/lib/python2.7/site-packages/paramiko/client.py", line 714, in _auth
+    raise saved_exception
+AuthenticationException: Authentication failed.
+[I 20181217 17:04:22 nmap_all_server:189] ssh login and exec command:{'info': ('192.168.147.128', 22, 'root', '1234560.'), 'status': 'success', 'cat /etc/issue': 'CentOS release 6.6 (Final)\nKernel \\r on an \\m\n\n', 'cat /sys/class/net/[e]*/address': '00:0c:29:0a:f2:65\n', 'hostname': 'localhost.localdomain\n', 'dmidecode -s system-serial-number': 'VMware-56 4d ac 59 73 c5 2b 01-59 6c 85 f2 f4 0a f2 65\n', 'cat /etc/redhat-release': 'CentOS release 6.6 (Final)\n', 'dmidecode -s system-manufacturer': 'VMware, Inc.\n', 'dmidecode -s system-product-name': 'VMware Virtual Platform\n'}
+[E 20181218 15:12:13 j_filter:65] error:no sn and no mac,id is :18
+[E 20181218 15:12:13 j_filter:65] error:no sn and no mac,id is :19
+[E 20181218 15:12:13 j_filter:65] error:no sn and no mac,id is :20
+[E 20181218 15:12:13 j_filter:65] error:no sn and no mac,id is :21
+[E 20181218 18:15:25 j_filter:58] error:no sn and no mac,id is :18
+[E 20181218 18:15:25 j_filter:58] error:no sn and no mac,id is :19
+[E 20181218 18:15:25 j_filter:58] error:no sn and no mac,id is :20
+[E 20181218 18:15:25 j_filter:58] error:no sn and no mac,id is :21
+[I 20181218 18:15:26 j_filter:73] Inset data into table ConnectionInfo sucess!
+[E 20181218 18:22:00 j_filter:58] error:no sn and no mac,id is :18
+[E 20181218 18:22:00 j_filter:58] error:no sn and no mac,id is :19
+[E 20181218 18:22:00 j_filter:58] error:no sn and no mac,id is :20
+[E 20181218 18:22:00 j_filter:58] error:no sn and no mac,id is :21
+[I 20181218 18:22:00 j_filter:73] Inset data into table ConnectionInfo sucess!
+[E 20181219 11:24:28 j_filter:58] error:no sn and no mac,id is :18
+[E 20181219 11:24:28 j_filter:58] error:no sn and no mac,id is :19
+[E 20181219 11:24:28 j_filter:58] error:no sn and no mac,id is :20
+[E 20181219 11:24:28 j_filter:58] error:no sn and no mac,id is :21
+[I 20181219 11:24:28 j_filter:73] Inset data into table ConnectionInfo sucess!
+[E 20181219 11:25:54 j_filter:58] error:no sn and no mac,id is :18
+[E 20181219 11:25:54 j_filter:58] error:no sn and no mac,id is :19
+[E 20181219 11:25:54 j_filter:58] error:no sn and no mac,id is :20
+[E 20181219 11:25:54 j_filter:58] error:no sn and no mac,id is :21
+[I 20181219 11:25:54 j_filter:73] Inset data into table ConnectionInfo sucess!
+[E 20181219 17:25:16 j_filter:58] error:no sn and no mac,id is :18
+[E 20181219 17:25:16 j_filter:58] error:no sn and no mac,id is :19
+[E 20181219 17:25:16 j_filter:58] error:no sn and no mac,id is :20
+[E 20181219 17:25:16 j_filter:58] error:no sn and no mac,id is :21
+[I 20181219 17:25:16 j_filter:73] Inset data into table ConnectionInfo sucess!
